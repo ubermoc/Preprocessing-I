@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  display: flex;
+  width: 900px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.container h1 {
+  font-size: 45px;
+}
+.container h4 {
+  font-size: 20px;
+}
+.container h2 {
+  font-size: 35px;
+}
+.container h3 {
+  font-size: 30px;
+}
+.top-nav {
+  cursor: default;
+  margin-left: 70%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+.top-nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.top-content {
+  background-color: #ebebeb;
+  padding: 60px 30px;
+  margin-bottom: 4%;
+}
+.top-content .contact {
+  margin-top: 10px;
+  font-size: 20px;
+  background-color: #777777;
+  cursor: default;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+.top-content img {
+  height: 300px;
+  width: 300px;
+}
+.top-content .border {
+  border-bottom: solid 1px #a0a0a0;
+  padding-bottom: 4%;
+}
+.middle-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.middle-content .left-text {
+  width: 48%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 4%;
+  line-height: 25px;
+  font-size: 17px;
+}
+.middle-content .right-text {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+.middle-content .about-text {
+  margin-top: 5%;
+}
+.middle-content li {
+  border: solid 1px lightgray;
+  width: 400px;
+  font-size: 20px;
+  padding: 20px;
+}
+.bottom-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+}
+.bottom-content .work {
+  margin: 40px 90px 20px 0;
+  width: 900px;
+  border-bottom: solid 1px lightgray;
+}
+.bottom-content .Titles {
+  font-size: 20px;
+  font-weight: bold;
+}
+.bottom-content table {
+  width: 100%;
+}
+.bottom-content .jobs {
+  padding: 20px;
+}
+footer {
+  background: lightgray;
+  height: 60px;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 5%;
+}

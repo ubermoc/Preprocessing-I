@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "less-watch-compiler": "^1.13.0"
+  },
+  "name": "Resume",
+  "version": "1.0.0",
+  "description": "Resume",
+  "main": "index.js",
+  "repository": "https://github.com/ubermoc/Preprocessing-I.git",
+  "author": "ubermoc <ubermoc@gmail.com>",
+  "license": "MIT"
+}
